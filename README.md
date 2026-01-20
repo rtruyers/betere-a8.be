@@ -1,4 +1,4 @@
-# bet ere-a8.be
+# betere-a8.be
 
 Static Hugo website (theme: PaperMod) for the *Actiecomité “Een Betere A8”* in Essenbeek (Halle, BE).
 
