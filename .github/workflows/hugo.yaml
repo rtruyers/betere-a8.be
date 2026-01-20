@@ -104,25 +104,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-caches:
-  assets:
-    dir: :resourceDir/_gen
-    maxAge: -1
-  getcsv:
-    dir: :cacheDir/:project
-    maxAge: -1
-  getjson:
-    dir: :cacheDir/:project
-    maxAge: -1
-  getresource:
-    dir: :cacheDir/:project
-    maxAge: -1
-  images:
-    dir: :resourceDir/_gen
-    maxAge: -1
-  misc:
-    dir: :cacheDir/:project
-    maxAge: -1
-  modules:
-    dir: :cacheDir/modules
-    maxAge: -1
