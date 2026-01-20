@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "/Users/rutger/.vscode/extensions/ms-security.ms-sentinel-1.0.0/python",
+        "/Users/rutger/.vscode/extensions/ms-security.ms-sentinel-1.1.1/python"
+    ]
+}
