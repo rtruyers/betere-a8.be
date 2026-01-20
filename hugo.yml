@@ -30,23 +30,23 @@ markup:
       unsafe: true
 menu:
   main:
-    - identifier: Home
+    - identifier: home
       name: Home
       url: /
       weight: 1
-    - identifier: Nieuws
+    - identifier: /tags/nieuws/
       name: Nieuws
-      url: /tags/Nieuws/
+      url: /tags/nieuws/
       weight: 10
-    - identifier: Verslagen
+    - identifier: /tags/verslagen/
       name: Verslagen
-      url: /tags/Verslagen/
+      url: /tags/verslagen/
       weight: 20
-    - identifier: Aansluiten
+    - identifier: /aansluiten/
       name: Aansluiten
       url: /aansluiten/
       weight: 30
-    - identifier: OverOns
+    - identifier: /about/
       name: Over Ons
       url: /about/
       weight: 40
