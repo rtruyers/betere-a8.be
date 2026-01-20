@@ -1,4 +1,3 @@
-baseURL: https://betere-a8.be
 name: Betere-A8.be
 on:
   push:
