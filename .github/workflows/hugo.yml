@@ -54,6 +54,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      # Create Folder
+      - name: Create directory for user-specific executable files
+        run: |
+          mkdir -p "${HOME}/.local"
       # install dart-sass
       - name: install dart-sass
         run: |
