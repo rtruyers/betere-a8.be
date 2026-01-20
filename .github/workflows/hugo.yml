@@ -88,13 +88,23 @@ jobs:
       - name: Configure Git
         run: |
             git config core.quotepath false
+      # Configure Cach Store
+      - name: Cache restore
+        id: cache-restore
+        uses: actions/cache/restore@v5
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: hugo-${{ github.run_id }}
+          restore-keys:
+            hugo-
       # Build the Site
       - name: Build the site
         run: |
-            hugo \
-              --gc \
-              --minify \
-              --baseURL "${{ steps.pages.outputs.base_url }}/" \
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --cacheDir "${{ runner.temp }}/hugo_cache"
       # update artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
