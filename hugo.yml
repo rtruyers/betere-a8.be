@@ -50,3 +50,7 @@ menu:
       name: Over Ons
       url: /about/
       weight: 40
+      
+caches:
+  images:
+    dir: :cacheDir/images
