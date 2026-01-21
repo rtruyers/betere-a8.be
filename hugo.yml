@@ -42,10 +42,10 @@ menu:
       name: Verslagen
       url: /tags/verslagen/
       weight: 20
-    - identifier : /tags/archive/
+    - identifier : /archive/
       name: Archief
       url: /archive/
-      weight: 26
+      weight: 25
     - identifier: /aansluiten/
       name: Aansluiten
       url: /aansluiten/
