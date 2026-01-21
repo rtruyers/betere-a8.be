@@ -44,7 +44,7 @@ menu:
       weight: 20
     - identifier : /tags/archive/
       name: Archief
-      url: /content/archive/archive.md
+      url: /content/archive/posts.md
       weight: 25
     - identifier: /aansluiten/
       name: Aansluiten
