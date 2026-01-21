@@ -1,6 +1,6 @@
 ---
 title: "Archief"
-layout: "archives"
-url: "/archives/"
-summary: Archieven
+layout: archive
+type: posts
+summary: This page contains an archive of all posts.
 ---
